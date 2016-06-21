@@ -1,0 +1,12 @@
+dependencies:
+  - recipe: flinkie::install
+  - recipe: flinkie::experiment
+    local:
+      - flinkie::install
+    global:
+  - recipe: flinkie::
+    local:
+      - flinkie::install
+    global:
+
+
